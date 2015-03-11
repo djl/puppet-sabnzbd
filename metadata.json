@@ -1,0 +1,17 @@
+{
+  "name": "djl-sabnzbd",
+  "version": "0.0.1",
+  "author": "djl",
+  "summary": "Install SABnzbd",
+  "license": "ISC",
+  "source": "https://github.com/djl/puppet-sabnzbd.git",
+  "project_page": "https://github.com/djl/puppet-sabnzbd",
+  "issues_url": "https://github.com/djl/puppet-sabnzbd/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 3.2.0"
+    }
+  ]
+}
+
