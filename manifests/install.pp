@@ -8,7 +8,6 @@ class sabnzbd::install() inherits sabnzbd::params {
     user { $sabnzbd::user:
       ensure => present,
       shell  => $sabnzbd::user_shell,
-      system => true,
       home   => $sabnzbd::data_dir,
     }
   }
